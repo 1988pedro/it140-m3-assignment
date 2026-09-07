@@ -1,4 +1,4 @@
-<!-- To see this file in a clean, formatted view, right-click on the filename and choose "Open Preview." -->
+<!-- To see this file in a clean, formatted view, select ▼ in the upper-right corner of the editor pane, then select "Markdown Preview". -->
 
 # Software Development Worksheet (SDW)
 
@@ -18,9 +18,9 @@
 
 > The worksheet uses the same pattern throughout:
 >
-> - **Where to look** tells you where to find the information you need.
-> - **Prompt** tells you what to think about or answer.
-> - Your response goes immediately after the prompt.
+> * **Where to look** tells you where to find the information you need.
+> * **Prompt** tells you what to think about or answer.
+> * Your response goes immediately after the prompt.
 >
 > The worksheet intentionally asks questions instead of supplying the completed paycheck algorithm. Your graded flowchart and pseudocode should contain **your** design.
 
@@ -34,14 +34,14 @@
 
 > **Where to look:**
 >
-> - [ ] Module Three Assignment Guidelines and Rubric in D2L Brightspace
-> - [ ] [Software Requirements Specification (SRS)](analysis/paycheck_calculator_srs.md)
->   - `## 0. General Description`
->   - `## 1. Functional Requirements`
->   - `## 2. Design Requirements`
->   - `## 3. Technology and File Constraints`
->   - `## 4. Verification Cases`
->   - `## 5. Out of Scope Unless Your Instructor Adds a Requirement`
+> * [ ] Module Three Assignment Guidelines and Rubric in D2L Brightspace
+> * [ ] [Software Requirements Specification (SRS)](analysis/paycheck_calculator_srs.md)
+>   * `## 0. General Description`
+>   * `## 1. Functional Requirements`
+>   * `## 2. Design Requirements`
+>   * `## 3. Technology and File Constraints`
+>   * `## 4. Verification Cases`
+>   * `## 5. Out of Scope Unless Your Instructor Adds a Requirement`
 
 ## 2. Program Purpose
 
@@ -199,11 +199,11 @@ Before continuing, verify:
 
 > **Where to look:**
 >
-> - [ ] [Design Phase instructions](design/README.md)
-> - [ ] [Software Design Document (SDD)](design/paycheck_calculator_sdd.md)
-> - [ ] [SRS](analysis/paycheck_calculator_srs.md)
-> - [ ] Draw.io template **README**, **Symbols**, and **Snippets** tabs
-> - [ ] Pseudocode starter comments and TODO prompts
+> * [ ] [Design Phase instructions](design/README.md)
+> * [ ] [Software Design Document (SDD)](design/paycheck_calculator_sdd.md)
+> * [ ] [SRS](analysis/paycheck_calculator_srs.md)
+> * [ ] Draw.io template **README**, **Symbols**, and **Snippets** tabs
+> * [ ] Pseudocode starter comments and TODO prompts
 
 Remember:
 
