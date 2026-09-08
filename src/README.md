@@ -176,16 +176,11 @@ Work incrementally:
 
 This makes it easier to identify which recent change caused a problem.
 
-From the repository root:
+From the repository root, use the same Bash command on the CVD, Linux, macOS, and Windows Git Bash:
 
 ```bash
+cd ~/Repos/it140-m3-assignment
 python3 src/paycheck_calculator.py
-```
-
-On Windows, if your configured environment uses `python` rather than `python3`, use:
-
-```powershell
-python src/paycheck_calculator.py
 ```
 
 ### 7. Complete the References Section

@@ -33,16 +33,11 @@ Do not modify the provided test file to make a failing test pass.
 
 ## 1. Make Sure the Program Runs
 
-Before automated testing, run your optional program yourself from the repository root:
+Before automated testing, run your optional program yourself from the repository root. Use the same Bash commands on the CVD, Linux, macOS, and Windows Git Bash:
 
 ```bash
+cd ~/Repos/it140-m3-assignment
 python3 src/paycheck_calculator.py
-```
-
-On Windows, if your environment uses `python` rather than `python3`, use:
-
-```powershell
-python src/paycheck_calculator.py
 ```
 
 If Python reports a syntax or runtime error, return to the [Construct Phase](../src/README.md), correct one problem, and run the program again.
@@ -71,13 +66,14 @@ You have not studied Python testing yet. You are not expected to understand or m
 From the repository root, run:
 
 ```bash
+cd ~/Repos/it140-m3-assignment
 python3 tests/test_paycheck_calculator.py
 ```
 
 The tests intentionally do **not** require one exact prompt, dollar-sign style, or currency format because the assignment does not specify those details for the optional Python implementation.
 
 > [!NOTE]
-> These optional acceptance tests are not part of the active student Assignment Checks. A student can receive a green repository check without completing the optional Python program.
+> These optional acceptance tests are not part of the active student IT 140 Checks workflow. A student can receive a green repository check without completing the optional Python program.
 
 ## 4. Interpret the Results
 

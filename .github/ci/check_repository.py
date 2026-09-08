@@ -16,8 +16,6 @@ import xml.etree.ElementTree as ET
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
-# Student work is intentionally limited to the two graded design files,
-# optional SDW notes, and optional Python practice source.
 EDITABLE_PATHS = {
     "paycheck_calculator_sdw.md",
     "design/paycheck_calculator.drawio",
@@ -38,9 +36,13 @@ REQUIRED_FILES = (
     ".github/RЕADME.md",
     ".github/ISSUE_TEMPLATE/report-a-problem.yml",
     ".github/ISSUE_TEMPLATE/request-an-improvement.yml",
+    ".github/ci/README.md",
+    ".github/ci/check_readme_commands.py",
     ".github/ci/check_repository.py",
     ".github/ci/check_starter.py",
     ".github/social-preview.png",
+    ".github/workflows/external-links.yml",
+    ".github/workflows/readme-commands.yml",
     ".github/workflows/tests.yml",
     ".vscode/settings.json",
     "analysis/README.md",
@@ -56,10 +58,10 @@ REQUIRED_FILES = (
     "tests/test_paycheck_calculator.py",
 )
 
-# Course-managed Markdown is checked in both starter and student repositories.
 PROVIDED_MARKDOWN = (
     "README.md",
     ".github/RЕADME.md",
+    ".github/ci/README.md",
     "analysis/README.md",
     "analysis/paycheck_calculator_srs.md",
     "design/README.md",
@@ -68,17 +70,36 @@ PROVIDED_MARKDOWN = (
     "tests/README.md",
 )
 
-# These markers intentionally focus on stable document structure rather than
-# prose so routine wording changes do not require CI maintenance.
 REQUIRED_TEXT_MARKERS = {
     "README.md": (
         "# IT 140 Module Three Assignment",
         "## 0. Meet the Prerequisites",
         "## 1. Set Up or Open Your Assignment Repository",
+        "### Understand the Related Copies",
+        "### If You Work on More Than One Device",
         "## 2. Complete the Assignment",
+        "### 2.3 Save Your Work to GitHub",
+        "### 2.4 Review the Assignment Checks",
         "## 3. Submit Your Assignment",
         "## Optional: Continue Through Construct and Test",
+        "## Restore or Restart Your Assignment Repository",
         "## Help and Support",
+    ),
+    ".github/RЕADME.md": (
+        "# About the `.github` Folder",
+        "## What Is Here?",
+        "## Automated Checks",
+        "## Issue or Assignment Question?",
+    ),
+    ".github/ci/README.md": (
+        "# IT 140 Module Three Assignment | GitHub Continuous Integration Guide",
+        "## About CI",
+        "## Student CI",
+        "## When Something Fails",
+        "## Faculty Guidance",
+        "## Course Repository CI",
+        "## Maintainer Guidance",
+        "## Summary",
     ),
     "analysis/README.md": (
         "# Analyze Phase",
@@ -263,9 +284,14 @@ def check_drawio(checks: Checks) -> None:
         checks.note("The graded Draw.io file is parseable XML.")
 
 
-def check_pseudocode(checks: Checks, mode: str) -> None:
-    """Verify the pseudocode keeps its expected outer structure."""
-    text = read_text("design/paycheck_calculator.pseudo")
+def check_pseudocode(
+    checks: Checks,
+    mode: str,
+    changed: set[str] | None,
+) -> None:
+    """Verify pseudocode structure and changed student starter prompts."""
+    path = "design/paycheck_calculator.pseudo"
+    text = read_text(path)
     begin = text.find("BEGIN paycheck_calculator")
     end = text.rfind("END paycheck_calculator")
 
@@ -276,16 +302,20 @@ def check_pseudocode(checks: Checks, mode: str) -> None:
     if begin >= 0 and end >= 0 and begin >= end:
         checks.error("Pseudocode BEGIN must appear before END.")
 
-    if mode == "student":
+    student_changed_pseudocode = (
+        mode == "student" and changed is not None and path in changed
+    )
+    if student_changed_pseudocode:
         todo_lines = [
             line.strip() for line in text.splitlines() if "TODO:" in line
         ]
         if todo_lines:
             checks.error(
-                "The graded pseudocode still contains starter TODO prompts."
+                "The changed graded pseudocode still contains starter TODO "
+                "prompts."
             )
         else:
-            checks.note("The graded pseudocode starter TODOs were replaced.")
+            checks.note("The changed graded pseudocode has no starter TODOs.")
     elif begin >= 0 and end > begin:
         checks.note("The pseudocode has the expected BEGIN/END structure.")
 
@@ -474,15 +504,23 @@ def check_student_graded_changes(
     checks: Checks,
     changed: set[str] | None,
 ) -> None:
-    """Verify both graded design files differ from the template commit."""
+    """Give neutral starter feedback, then verify both graded files."""
     if changed is None:
+        return
+
+    graded_changed = GRADED_PATHS & changed
+    if not graded_changed:
+        checks.note(
+            "No graded design changes are committed yet; the starter state is "
+            "not treated as a student error."
+        )
         return
 
     missing = sorted(GRADED_PATHS - changed)
     for path in missing:
         checks.error(
-            "Graded design file has not changed from the starter template: "
-            f"{path}"
+            "Graded design work has started, but this graded file has not "
+            f"changed from the starter template: {path}"
         )
 
     if not missing:
@@ -510,15 +548,18 @@ def main() -> None:
     if checks.errors:
         checks.finish()
 
+    changed: set[str] | None = None
+    if args.mode == "student":
+        changed = student_changed_paths(checks)
+
     check_json_and_toml(checks)
     check_required_text_markers(checks)
     check_drawio(checks)
-    check_pseudocode(checks, args.mode)
+    check_pseudocode(checks, args.mode, changed)
     check_markdown_links(checks)
     check_social_preview(checks)
 
     if args.mode == "student":
-        changed = student_changed_paths(checks)
         check_student_change_scope(checks, changed)
         check_student_graded_changes(checks, changed)
     else:

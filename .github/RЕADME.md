@@ -12,38 +12,46 @@ Do not "correct" the filename unless this behavior is no longer desired.
 # About the `.github` Folder
 
 > [!IMPORTANT]
-> Do **not** modify or delete the `.github/` folder or any files in it. This
-> folder is for repository administration. It is not part of the student
-> procedures or graded deliverables for this assignment.
+> Do **not** modify or delete the `.github/` folder or any files in it. This folder is for repository administration and automated checks. It is not a graded Module Three deliverable.
 
 ## What Is Here?
 
-This repository uses `.github/` for GitHub-specific configuration:
+This repository uses `.github/` for GitHub-specific configuration and maintenance files:
 
-- `ISSUE_TEMPLATE/` — forms for reporting a repository problem or requesting
-  an improvement
-- `ci/` — scripts used by the automated repository checks
-- `workflows/tests.yml` — the active **Assignment Checks** workflow
-- `workflows/tests.yml.disabled` — an intentionally disabled optional Python
-  practice-test workflow retained for maintainers
-- `social-preview.png` — the repository social-preview image
+* `ISSUE_TEMPLATE/` — forms for reporting a repository problem or requesting an improvement
+* `ci/README.md` — guide to student and course continuous-integration behavior
+* `ci/check_repository.py` — repository, documentation, and assignment-artifact checks
+* `ci/check_starter.py` — validates the intended course starter state
+* `ci/check_readme_commands.py` — validates documented Bash commands across supported shells
+* `workflows/tests.yml` — active **IT 140 Checks** workflow
+* `workflows/readme-commands.yml` — Linux/Bash, macOS/zsh, and Windows/Git Bash README-command checks
+* `workflows/external-links.yml` — external-link validation for course documentation
+* `social-preview.png` — repository social-preview image
 
-The active Assignment Checks protect the repository and verify the two graded
-design artifacts at a basic file/structure level. They do **not** grade the
-quality of a student's flowchart or pseudocode and do not run the optional
-Python acceptance tests.
+The former `workflows/tests.yml.disabled` file is no longer part of the repository. Optional Python practice remains optional and is documented in the assignment files rather than maintained as a second disabled workflow.
 
-For additional information about the `.github` folder, see the
-[Module One Setup Tasks `.github` README](https://github.com/GC-STEM/it140-m1-setup-tasks/blob/main/.github/R%D0%95ADME.md).
+## Automated Checks
+
+### Personal Student Repositories
+
+The student-facing **Assignment artifact check** provides limited formative feedback about repository integrity and the two graded Module Three design files.
+
+A new personal repository is not treated as a failure simply because the graded files are still in their starter state. Once graded work begins, the check can report incomplete design-file changes, starter pseudocode TODOs, damaged Draw.io XML, or changes to protected course files.
+
+The optional Python program and optional acceptance tests are not student CI requirements.
+
+### Public Course Repository
+
+The public `GC-STEM/it140-m3-assignment` repository receives deeper maintainer checks for the starter package, Markdown structure and local links, Python support files, social preview, README commands, and external links.
+
+See the [CI Guide](ci/README.md) for details.
 
 ## Issue or Assignment Question?
 
-Use a GitHub Issue for a technical problem with the provided repository,
-documentation, starter files, automated checks, or course tools.
+Use [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) for a technical problem with this repository, its starter files, documentation, or automated checks.
 
-Do **not** use an Issue to request or post a completed solution to the graded
-flowchart or pseudocode.
+Use [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) for questions about using the repository that do not request or post a completed graded solution.
 
-Questions about assignment requirements, grading, submissions, deadlines,
-accommodations, or instructor feedback belong with your instructor in D2L
-Brightspace.
+For Codio Virtual Desktop performance, access, or outage problems, contact the **IT Service Desk** from the main menu bar in D2L Brightspace. For course IDE setup or lifecycle-script problems, use the Module One setup support resources.
+
+Questions about assignment requirements, grading, submissions, deadlines, accommodations, or instructor feedback belong with the instructor in D2L Brightspace.
