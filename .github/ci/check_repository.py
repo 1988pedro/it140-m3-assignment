@@ -92,7 +92,8 @@ REQUIRED_TEXT_MARKERS = {
         "## Issue or Assignment Question?",
     ),
     ".github/ci/README.md": (
-        "# IT 140 Module Three Assignment | GitHub Continuous Integration Guide",
+        "# IT 140 Module Three Assignment | GitHub Continuous "
+        "Integration Guide",
         "## About CI",
         "## Student CI",
         "## When Something Fails",
