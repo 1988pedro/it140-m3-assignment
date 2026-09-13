@@ -24,17 +24,17 @@ You may record brief working notes in the [Software Development Worksheet (SDW)]
 
 Use these materials:
 
-- **Module Three Assignment Guidelines and Rubric** in D2L Brightspace — official assignment and grading requirements
-- [Paycheck Calculator SRS](paycheck_calculator_srs.md) — organized requirements reference
-- [Software Development Worksheet (SDW)](../paycheck_calculator_sdw.md) — optional guided working notes
+* **Module Three Assignment Guidelines and Rubric** in D2L Brightspace — official assignment and grading requirements
+* [Paycheck Calculator SRS](paycheck_calculator_srs.md) — organized requirements reference
+* [Software Development Worksheet (SDW)](../paycheck_calculator_sdw.md) — optional guided working notes
 
 Relevant zyBooks topics include:
 
-- **3.1 If-else branches (general)**
-- **3.2 If-else statement**
-- **3.4 Equality and relational operators**
-- **3.5 Boolean operators and expressions**
-- **3.8 Code blocks and indentation**
+* **3.1 If-else branches (general)**
+* **3.2 If-else statement**
+* **3.4 Equality and relational operators**
+* **3.5 Boolean operators and expressions**
+* **3.8 Code blocks and indentation**
 
 ## What You Will Do
 
@@ -44,13 +44,13 @@ Read the complete Module Three Assignment Guidelines and Rubric before working f
 
 Identify what the assignment says about:
 
-- the employee's input;
-- the regular hourly rate;
-- the overtime hourly rate;
-- the boundary between regular and overtime hours;
-- the required result;
-- the required flowchart elements; and
-- the required pseudocode qualities.
+* the employee's input;
+* the regular hourly rate;
+* the overtime hourly rate;
+* the boundary between regular and overtime hours;
+* the required result;
+* the required flowchart elements; and
+* the required pseudocode qualities.
 
 ### 2. Read the SRS
 
@@ -58,11 +58,11 @@ Open the [SRS](paycheck_calculator_srs.md) and read it from beginning to end.
 
 Pay particular attention to:
 
-- `## 1. Functional Requirements`
-- `## 2. Design Requirements`
-- `## 3. Technology and File Constraints`
-- `## 4. Verification Cases`
-- `## 5. Out of Scope Unless Your Instructor Adds a Requirement`
+* `## 1. Functional Requirements`
+* `## 2. Design Requirements`
+* `## 3. Technology and File Constraints`
+* `## 4. Verification Cases`
+* `## 5. Out of Scope Unless Your Instructor Adds a Requirement`
 
 ### 3. Identify Input, Processing, and Output
 
@@ -72,10 +72,10 @@ Think about the required behavior as:
 
 Identify:
 
-- what information the program receives;
-- what calculations the program must perform;
-- where a decision is needed; and
-- what result the program produces.
+* what information the program receives;
+* what calculations the program must perform;
+* where a decision is needed; and
+* what result the program produces.
 
 Record these ideas in the Analyze section of the [SDW](../paycheck_calculator_sdw.md), if useful.
 
@@ -83,8 +83,8 @@ Record these ideas in the Analyze section of the [SDW](../paycheck_calculator_sd
 
 The assignment states that:
 
-- the first 40 hours use the regular rate; and
-- the overtime rate applies to each hour **above 40 hours**.
+* the first 40 hours use the regular rate; and
+* the overtime rate applies to each hour **above 40 hours**.
 
 That language makes **40 hours a boundary value**. A design should treat exactly 40 hours consistently with the first rule and hours greater than 40 consistently with the overtime rule.
 
@@ -113,24 +113,24 @@ Use the checkpoint in the SDW before moving to Design.
 
 Before continuing, make sure:
 
-- [ ] I read the complete Module Three Assignment Guidelines and Rubric.
-- [ ] I read the complete SRS.
-- [ ] I can explain the paycheck calculator's purpose in my own words.
-- [ ] I identified the required input, processing, decision, and output.
-- [ ] I understand why 40 hours is an important boundary.
-- [ ] I can distinguish the assignment requirements from optional design or implementation choices.
-- [ ] I did not add input-validation, formatting, or other requirements that the assignment does not state.
-- [ ] I am ready to create two design representations of the same solution.
+* [ ] I read the complete Module Three Assignment Guidelines and Rubric.
+* [ ] I read the complete SRS.
+* [ ] I can explain the paycheck calculator's purpose in my own words.
+* [ ] I identified the required input, processing, decision, and output.
+* [ ] I understand why 40 hours is an important boundary.
+* [ ] I can distinguish the assignment requirements from optional design or implementation choices.
+* [ ] I did not add input-validation, formatting, or other requirements that the assignment does not state.
+* [ ] I am ready to create two design representations of the same solution.
 
 ## Help and Support
 
 If you have difficulty completing this phase:
 
-- Review the [SRS](paycheck_calculator_srs.md) first.
-- See the [Module Three Assignment Wiki](https://github.com/GC-STEM/it140-m3-assignment/wiki) for supplemental explanations.
-- Use [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) for questions about the repository or provided analysis materials.
-- Use [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) to report a technical problem with repository files or tools.
-- Contact your instructor through D2L Brightspace for assignment requirements, grading, or feedback.
+* Review the [SRS](paycheck_calculator_srs.md) first.
+* See the [Module Three Assignment Wiki](https://github.com/GC-STEM/it140-m3-assignment/wiki) for supplemental explanations.
+* Use [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) for questions about the repository or provided analysis materials.
+* Use [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) to report a technical problem with repository files or tools.
+* Contact your instructor through D2L Brightspace for assignment requirements, grading, or feedback.
 
 ## Next Step
 

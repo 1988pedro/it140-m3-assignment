@@ -1,9 +1,9 @@
 # Software Design Document (SDD)
 
-- **Course:** IT 140 - *Introduction to Scripting*
-- **Activity:** Module Three Assignment
-- **Program:** Paycheck Calculator
-- **Status:** Provided design reference; do not edit
+* **Course:** IT 140 - *Introduction to Scripting*
+* **Activity:** Module Three Assignment
+* **Program:** Paycheck Calculator
+* **Status:** Provided design reference; do not edit
 
 ## 0. Purpose
 
@@ -29,10 +29,10 @@ Keep the distinction clear:
 
 The solution needs to represent four general kinds of work:
 
-- **Input** — obtain the information required by the assignment.
-- **Decision** — determine which pay-rule case applies.
-- **Processing** — perform the calculation required for that case.
-- **Output** — present the calculated weekly paycheck.
+* **Input** — obtain the information required by the assignment.
+* **Decision** — determine which pay-rule case applies.
+* **Processing** — perform the calculation required for that case.
+* **Output** — present the calculated weekly paycheck.
 
 Your flowchart and pseudocode should make the relationship among these kinds of work clear without adding requirements that are not in the assignment.
 
@@ -40,8 +40,8 @@ Your flowchart and pseudocode should make the relationship among these kinds of 
 
 The assignment defines a boundary at **40 hours**:
 
-- the first 40 hours use the regular rate; and
-- only hours **above 40** use the overtime rate.
+* the first 40 hours use the regular rate; and
+* only hours **above 40** use the overtime rate.
 
 Your design must make that boundary unambiguous. Use the assignment example and the verification cases in the SRS to check your reasoning, but create the branch condition and processing steps yourself.
 
@@ -49,10 +49,10 @@ Your design must make that boundary unambiguous. Use the assignment example and 
 
 The official assignment requires appropriate arrows and symbols for:
 
-- Start and End
-- Input and output
-- Decision branching
-- Processing
+* Start and End
+* Input and output
+* Decision branching
+* Processing
 
 A readable flowchart should let another programmer answer:
 
@@ -72,12 +72,12 @@ The official assignment asks for pseudocode that outlines a series of steps and 
 
 Your pseudocode should therefore make clear:
 
-- the order of operations;
-- the required input;
-- the decision structure;
-- the processing associated with each path;
-- the output; and
-- which statements belong inside each branch.
+* the order of operations;
+* the required input;
+* the decision structure;
+* the processing associated with each path;
+* the output; and
+* which statements belong inside each branch.
 
 Pseudocode is not executable Python. Prefer clear program logic over Python-specific syntax.
 

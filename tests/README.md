@@ -24,10 +24,10 @@ You may make corrections to your graded design files if testing exposes a design
 
 Use:
 
-- [`../src/paycheck_calculator.py`](../src/paycheck_calculator.py) — optional program you constructed;
-- your graded [flowchart](../design/paycheck_calculator.drawio) and [pseudocode](../design/paycheck_calculator.pseudo);
-- the [SRS verification cases](../analysis/paycheck_calculator_srs.md#4-verification-cases); and
-- [`test_paycheck_calculator.py`](test_paycheck_calculator.py) — provided optional automated acceptance tests.
+* [`../src/paycheck_calculator.py`](../src/paycheck_calculator.py) — optional program you constructed;
+* your graded [flowchart](../design/paycheck_calculator.drawio) and [pseudocode](../design/paycheck_calculator.pseudo);
+* the [SRS verification cases](../analysis/paycheck_calculator_srs.md#4-verification-cases); and
+* [`test_paycheck_calculator.py`](test_paycheck_calculator.py) — provided optional automated acceptance tests.
 
 Do not modify the provided test file to make a failing test pass.
 
@@ -48,10 +48,10 @@ Use several input values rather than checking only one example.
 
 Useful cases include:
 
-- a normal regular-hours case;
-- exactly 40 hours;
-- a value just above 40 hours; and
-- the 60-hour example from the assignment.
+* a normal regular-hours case;
+* exactly 40 hours;
+* a value just above 40 hours; and
+* the 60-hour example from the assignment.
 
 Compare the program result with the [SRS verification table](../analysis/paycheck_calculator_srs.md#4-verification-cases).
 
@@ -95,10 +95,10 @@ OK
 
 It does **not** mean:
 
-- your assignment has been graded;
-- the flowchart automatically satisfies the rubric;
-- the pseudocode automatically satisfies the rubric; or
-- the assignment has been submitted.
+* your assignment has been graded;
+* the flowchart automatically satisfies the rubric;
+* the pseudocode automatically satisfies the rubric; or
+* the assignment has been submitted.
 
 ### A Test Fails
 
@@ -112,10 +112,10 @@ Read:
 
 Then compare the same case with:
 
-- the SRS;
-- your flowchart;
-- your pseudocode; and
-- your Python code.
+* the SRS;
+* your flowchart;
+* your pseudocode; and
+* your Python code.
 
 Find the **first place** where the artifacts stop agreeing.
 
@@ -148,25 +148,25 @@ If coding reveals a design error, revise the graded design first and then bring 
 
 ## 6. Check Your Work
 
-- [ ] The optional program runs without a Python error.
-- [ ] I manually checked a regular-hours case.
-- [ ] I checked exactly 40 hours.
-- [ ] I checked an overtime case.
-- [ ] I checked the 60-hour assignment example.
-- [ ] My program behavior remains consistent with my flowchart and pseudocode.
-- [ ] If a test failed, I found and corrected the cause rather than modifying the provided test.
-- [ ] If I changed a graded design file, I reviewed it again against the official rubric.
+* [ ] The optional program runs without a Python error.
+* [ ] I manually checked a regular-hours case.
+* [ ] I checked exactly 40 hours.
+* [ ] I checked an overtime case.
+* [ ] I checked the 60-hour assignment example.
+* [ ] My program behavior remains consistent with my flowchart and pseudocode.
+* [ ] If a test failed, I found and corrected the cause rather than modifying the provided test.
+* [ ] If I changed a graded design file, I reviewed it again against the official rubric.
 
 ## Help and Support
 
 If you have difficulty:
 
-- Review the [SRS verification cases](../analysis/paycheck_calculator_srs.md#4-verification-cases).
-- Review [Construct](../src/README.md) for syntax, indentation, and incremental-development guidance.
-- See the [Module Three Assignment Wiki](https://github.com/GC-STEM/it140-m3-assignment/wiki) for supplemental testing and debugging explanations.
-- Use [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) for questions about optional practice tools.
-- Use [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) to report a technical problem with the provided test file or repository checks.
-- Contact your instructor through D2L Brightspace for assignment requirements, grading, or feedback.
+* Review the [SRS verification cases](../analysis/paycheck_calculator_srs.md#4-verification-cases).
+* Review [Construct](../src/README.md) for syntax, indentation, and incremental-development guidance.
+* See the [Module Three Assignment Wiki](https://github.com/GC-STEM/it140-m3-assignment/wiki) for supplemental testing and debugging explanations.
+* Use [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) for questions about optional practice tools.
+* Use [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) to report a technical problem with the provided test file or repository checks.
+* Contact your instructor through D2L Brightspace for assignment requirements, grading, or feedback.
 
 ## Next Step
 

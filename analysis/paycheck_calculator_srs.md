@@ -1,9 +1,9 @@
 # Software Requirements Specification (SRS)
 
-- **Course:** IT 140 - *Introduction to Scripting*
-- **Activity:** Module Three Assignment
-- **Program:** Paycheck Calculator
-- **Status:** Provided requirements reference; do not edit
+* **Course:** IT 140 - *Introduction to Scripting*
+* **Activity:** Module Three Assignment
+* **Program:** Paycheck Calculator
+* **Status:** Provided requirements reference; do not edit
 
 ## 0. General Description
 
@@ -15,12 +15,12 @@ This SRS reorganizes requirements from the Module Three Assignment Guidelines an
 
 The planned program shall:
 
-- **FR-1 — Obtain hours worked.** Obtain the number of hours the employee worked during the week.
-- **FR-2 — Apply regular pay.** Apply a rate of **$20 per hour** to the first **40 hours** worked.
-- **FR-3 — Apply overtime pay.** Apply a rate of **$30 per hour** to each hour worked **above 40 hours**.
-- **FR-4 — Select the applicable calculation.** Use decision branching so the appropriate pay calculation is performed for the hours worked.
-- **FR-5 — Calculate weekly pay.** Calculate the employee's total weekly paycheck.
-- **FR-6 — Output weekly pay.** Output the calculated weekly paycheck.
+* **FR-1 — Obtain hours worked.** Obtain the number of hours the employee worked during the week.
+* **FR-2 — Apply regular pay.** Apply a rate of **$20 per hour** to the first **40 hours** worked.
+* **FR-3 — Apply overtime pay.** Apply a rate of **$30 per hour** to each hour worked **above 40 hours**.
+* **FR-4 — Select the applicable calculation.** Use decision branching so the appropriate pay calculation is performed for the hours worked.
+* **FR-5 — Calculate weekly pay.** Calculate the employee's total weekly paycheck.
+* **FR-6 — Output weekly pay.** Output the calculated weekly paycheck.
 
 ## 2. Design Requirements
 
@@ -30,19 +30,19 @@ The graded assignment shall represent the solution in both required design artif
 
 Create `design/paycheck_calculator.drawio` using appropriate symbols and arrows for:
 
-- start and end points;
-- input and output;
-- decision branching; and
-- processing steps.
+* start and end points;
+* input and output;
+* decision branching; and
+* processing steps.
 
 ### DR-2 — Pseudocode
 
 Create `design/paycheck_calculator.pseudo` with:
 
-- logically ordered steps;
-- appropriate indentation;
-- appropriate pseudocode keywords; and
-- decision branching that accounts for all input values covered by the stated pay rules.
+* logically ordered steps;
+* appropriate indentation;
+* appropriate pseudocode keywords; and
+* decision branching that accounts for all input values covered by the stated pay rules.
 
 ### DR-3 — Design Consistency
 
@@ -50,9 +50,9 @@ The flowchart and pseudocode should represent the same required input, decision 
 
 ## 3. Technology and File Constraints
 
-- **TC-1:** The flowchart deliverable shall remain a Draw.io file (`.drawio`).
-- **TC-2:** The pseudocode deliverable shall remain a pseudocode text file (`.pseudo`).
-- **TC-3:** Python construction and testing are optional practice and are not graded Module Three deliverables.
+* **TC-1:** The flowchart deliverable shall remain a Draw.io file (`.drawio`).
+* **TC-2:** The pseudocode deliverable shall remain a pseudocode text file (`.pseudo`).
+* **TC-3:** Python construction and testing are optional practice and are not graded Module Three deliverables.
 
 ## 4. Verification Cases
 
@@ -73,12 +73,12 @@ These cases can be traced through either design before optional Python code exis
 
 The Module Three Assignment Guidelines and Rubric does **not** specify requirements for:
 
-- rejecting negative values;
-- limiting the maximum number of hours;
-- re-prompting after invalid input;
-- payroll deductions or taxes;
-- exact prompt wording; or
-- exact currency formatting of optional Python output.
+* rejecting negative values;
+* limiting the maximum number of hours;
+* re-prompting after invalid input;
+* payroll deductions or taxes;
+* exact prompt wording; or
+* exact currency formatting of optional Python output.
 
 Do not add these as graded requirements unless your instructor or current course materials direct you to do so.
 

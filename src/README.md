@@ -24,24 +24,24 @@ You may complete [`paycheck_calculator.py`](paycheck_calculator.py) for practice
 
 Use:
 
-- your completed [`../design/paycheck_calculator.drawio`](../design/paycheck_calculator.drawio);
-- your completed [`../design/paycheck_calculator.pseudo`](../design/paycheck_calculator.pseudo);
-- the provided [`paycheck_calculator.py`](paycheck_calculator.py) starter;
-- the [SRS](../analysis/paycheck_calculator_srs.md) when checking requirements; and
-- Module Three decision-branching concepts.
+* your completed [`../design/paycheck_calculator.drawio`](../design/paycheck_calculator.drawio);
+* your completed [`../design/paycheck_calculator.pseudo`](../design/paycheck_calculator.pseudo);
+* the provided [`paycheck_calculator.py`](paycheck_calculator.py) starter;
+* the [SRS](../analysis/paycheck_calculator_srs.md) when checking requirements; and
+* Module Three decision-branching concepts.
 
 Relevant zyBooks sections include:
 
-- **1.3 Basic input and output**
-- **1.15 Numeric types: Floating-point**
-- **1.16 Arithmetic expressions**
-- **2.6 Type conversions**
-- **2.7 String formatting**
-- **3.1 If-else branches (general)**
-- **3.2 If-else statement**
-- **3.4 Equality and relational operators**
-- **3.5 Boolean operators and expressions**
-- **3.8 Code blocks and indentation**
+* **1.3 Basic input and output**
+* **1.15 Numeric types: Floating-point**
+* **1.16 Arithmetic expressions**
+* **2.6 Type conversions**
+* **2.7 String formatting**
+* **3.1 If-else branches (general)**
+* **3.2 If-else statement**
+* **3.4 Equality and relational operators**
+* **3.5 Boolean operators and expressions**
+* **3.8 Code blocks and indentation**
 
 ## Read the Starter Before Editing
 
@@ -65,9 +65,9 @@ For this optional practice, **change only lines marked with `TODO:`**.
 
 This includes:
 
-- `TODO:` lines inside the module docstring;
-- `# TODO:` comments inside `main()`; and
-- `# TODO:` lines in the References section.
+* `TODO:` lines inside the module docstring;
+* `# TODO:` comments inside `main()`; and
+* `# TODO:` lines in the References section.
 
 Do not change the provided constants, `main()` definition, function docstring, main guard, or other course-provided lines.
 
@@ -131,11 +131,11 @@ Use **your pseudocode as the primary coding guide**. Read one design step at a t
 
 Use your own SDW/design work to describe:
 
-- the program purpose;
-- input;
-- processing;
-- output; and
-- an original usage example.
+* the program purpose;
+* input;
+* processing;
+* output; and
+* an original usage example.
 
 The docstring is practice documentation, not a graded Module Three requirement.
 
@@ -151,11 +151,11 @@ Use the branch condition and calculations from **your own graded design**.
 
 Keep the implementation simple. Module Three concepts are sufficient:
 
-- variables;
-- arithmetic expressions;
-- `if` / `else`;
-- relational operators; and
-- indentation.
+* variables;
+* arithmetic expressions;
+* `if` / `else`;
+* relational operators; and
+* indentation.
 
 If your design and code disagree, revise the design first, then update the code.
 
@@ -193,27 +193,27 @@ If you did not use an outside source, delete the unused reference TODO line.
 
 Before moving to optional testing, make sure:
 
-- [ ] My graded flowchart and pseudocode were complete before I began optional coding.
-- [ ] I changed only TODO lines in the starter.
-- [ ] My module docstring describes this paycheck calculator, not another assignment.
-- [ ] My code follows my own pseudocode and flowchart.
-- [ ] I left the constants, `main()` definition, and main guard unchanged.
-- [ ] Code inside `main()` remains indented correctly.
-- [ ] I ran after small changes and corrected errors incrementally.
-- [ ] I added references for outside help I actually used or deleted the unused reference TODO.
-- [ ] No TODO lines remain in my completed optional file.
-- [ ] The program runs without a Python error for a normal input value.
+* [ ] My graded flowchart and pseudocode were complete before I began optional coding.
+* [ ] I changed only TODO lines in the starter.
+* [ ] My module docstring describes this paycheck calculator, not another assignment.
+* [ ] My code follows my own pseudocode and flowchart.
+* [ ] I left the constants, `main()` definition, and main guard unchanged.
+* [ ] Code inside `main()` remains indented correctly.
+* [ ] I ran after small changes and corrected errors incrementally.
+* [ ] I added references for outside help I actually used or deleted the unused reference TODO.
+* [ ] No TODO lines remain in my completed optional file.
+* [ ] The program runs without a Python error for a normal input value.
 
 ## Help and Support
 
 If you have difficulty:
 
-- Start with your completed pseudocode and translate one step at a time.
-- Return to [Design](../design/README.md) if the design is incomplete or inconsistent.
-- See the [Module Three Assignment Wiki](https://github.com/GC-STEM/it140-m3-assignment/wiki) for supplemental guidance.
-- Use [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) for questions about optional practice tools.
-- Use [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) to report technical problems with the provided starter.
-- Contact your instructor through D2L Brightspace for assignment requirements or grading questions.
+* Start with your completed pseudocode and translate one step at a time.
+* Return to [Design](../design/README.md) if the design is incomplete or inconsistent.
+* See the [Module Three Assignment Wiki](https://github.com/GC-STEM/it140-m3-assignment/wiki) for supplemental guidance.
+* Use [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) for questions about optional practice tools.
+* Use [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) to report technical problems with the provided starter.
+* Contact your instructor through D2L Brightspace for assignment requirements or grading questions.
 
 ## Next Step
 

@@ -21,6 +21,8 @@
 > [!NOTE]
 > **🆕 New for 2026 C-5:** IT 140 now uses GitHub repositories to provide assignment starter files, development resources, and supporting documentation.
 >
+> If you have a question, check [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) to see whether it has already been answered or ask a new question.
+>
 > If you find a problem with this GitHub repository or its instructions, or have a suggestion for improvement, please open [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) to review existing issues or create a new issue.
 
 ---
@@ -30,10 +32,10 @@
 * **Task Type**: Required, graded, one submission required
 * **Repository Version**: 1.0.4
 * **Repository Version DTG**: 2026-09-07-14-30
-- **Design Problem**: Employee Paycheck Calculator
-- **Graded Deliverables**:
-  - [`design/paycheck_calculator.drawio`](design/paycheck_calculator.drawio)
-  - [`design/paycheck_calculator.pseudo`](design/paycheck_calculator.pseudo)
+* **Design Problem**: Employee Paycheck Calculator
+* **Graded Deliverables**:
+  * [`design/paycheck_calculator.drawio`](design/paycheck_calculator.drawio)
+  * [`design/paycheck_calculator.pseudo`](design/paycheck_calculator.pseudo)
 
 **Required assignment progress:** **0 Start Here** → [1 Analyze](analysis/README.md) → [2 Design](design/README.md) → [3 Submit](#3-submit-your-assignment)
 
@@ -67,14 +69,14 @@ Construct and Test are optional practice and do not add graded deliverables.
 
 Edit and submit both of these files:
 
-- [`design/paycheck_calculator.drawio`](design/paycheck_calculator.drawio) — graded flowchart
-- [`design/paycheck_calculator.pseudo`](design/paycheck_calculator.pseudo) — graded pseudocode
+* [`design/paycheck_calculator.drawio`](design/paycheck_calculator.drawio) — graded flowchart
+* [`design/paycheck_calculator.pseudo`](design/paycheck_calculator.pseudo) — graded pseudocode
 
 ### Working notes; not submitted
 
 You may also edit:
 
-- [`paycheck_calculator_sdw.md`](paycheck_calculator_sdw.md) — Software Development Worksheet (SDW) working notes
+* [`paycheck_calculator_sdw.md`](paycheck_calculator_sdw.md) — Software Development Worksheet (SDW) working notes
 
 The SDW is a learning aid. It is not a graded deliverable unless your instructor specifically tells you otherwise.
 
@@ -82,7 +84,7 @@ The SDW is a learning aid. It is not a graded deliverable unless your instructor
 
 After your graded designs are complete, you may edit:
 
-- [`src/paycheck_calculator.py`](src/paycheck_calculator.py) — optional Python construction practice
+* [`src/paycheck_calculator.py`](src/paycheck_calculator.py) — optional Python construction practice
 
 The provided test file is a practice tool. Do not edit it to make a test pass.
 
@@ -94,9 +96,9 @@ Do not edit the SRS, SDD, README files, tests, `.github` files, repository confi
 
 Before starting this assignment:
 
-- [ ] Complete the GitHub and Course IDE portions of the [Module One Setup Tasks](https://github.com/GC-STEM/it140-m1-setup-tasks).
-- [ ] Complete the assigned Module Three zyBooks activities before relying on the assignment to teach decision branching from the beginning.
-- [ ] Open the **Module Three Assignment Guidelines and Rubric** in D2L Brightspace and read the complete assignment before editing the starter files.
+* [ ] Complete the GitHub and Course IDE portions of the [Module One Setup Tasks](https://github.com/GC-STEM/it140-m1-setup-tasks).
+* [ ] Complete the assigned Module Three zyBooks activities before relying on the assignment to teach decision branching from the beginning.
+* [ ] Open the **Module Three Assignment Guidelines and Rubric** in D2L Brightspace and read the complete assignment before editing the starter files.
 
 Relevant Module Three topics include `if`/`else` branching, relational operators, Boolean expressions, and code-block indentation.
 
@@ -219,9 +221,9 @@ Open [Analyze Phase](analysis/README.md).
 
 During Analyze, focus on **what** the paycheck calculator must do. Use:
 
-- the official Guidelines and Rubric in D2L Brightspace;
-- the provided [Software Requirements Specification (SRS)](analysis/paycheck_calculator_srs.md); and
-- the optional [Software Development Worksheet (SDW)](paycheck_calculator_sdw.md).
+* the official Guidelines and Rubric in D2L Brightspace;
+* the provided [Software Requirements Specification (SRS)](analysis/paycheck_calculator_srs.md); and
+* the optional [Software Development Worksheet (SDW)](paycheck_calculator_sdw.md).
 
 Pay particular attention to the distinction between the first 40 hours and hours **above 40**. Do not add requirements such as negative-input validation or exact output formatting when the assignment does not specify them.
 
@@ -270,12 +272,12 @@ A newly created personal repository should **not** fail merely because the two g
 
 The assignment artifact check can verify basic conditions such as:
 
-- required course files are still present;
-- committed changes are limited to student-editable files;
-- after graded work begins, both graded design files have changed from the starter state;
-- the Draw.io file remains readable XML;
-- changed pseudocode retains its required outer structure and no longer contains starter `TODO:` prompts; and
-- course-provided Markdown and configuration remain internally consistent.
+* required course files are still present;
+* committed changes are limited to student-editable files;
+* after graded work begins, both graded design files have changed from the starter state;
+* the Draw.io file remains readable XML;
+* changed pseudocode retains its required outer structure and no longer contains starter `TODO:` prompts; and
+* course-provided Markdown and configuration remain internally consistent.
 
 The optional Python construction file and optional acceptance tests are **not required by the student assignment artifact check**.
 
@@ -294,8 +296,8 @@ In D2L Brightspace, open the **Module Three Assignment** and follow the current 
 
 Submit exactly the two graded design files required by the assignment:
 
-- [`design/paycheck_calculator.drawio`](design/paycheck_calculator.drawio)
-- [`design/paycheck_calculator.pseudo`](design/paycheck_calculator.pseudo)
+* [`design/paycheck_calculator.drawio`](design/paycheck_calculator.drawio)
+* [`design/paycheck_calculator.pseudo`](design/paycheck_calculator.pseudo)
 
 Do **not** submit the SDW, optional Python practice file, test file, GitHub Actions output, SRS, SDD, or repository README files unless your instructor specifically requests them.
 
@@ -350,10 +352,10 @@ git remote -v
 
 Use the [Module Three Assignment Wiki](https://github.com/GC-STEM/it140-m3-assignment/wiki) for supplemental explanations of the SDLC, assignment documents, flowcharts, pseudocode, course IDE tools, Git/GitHub, testing, sources, and AI use.
 
-- Use [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) for questions about using this repository that do not request a completed graded solution.
-- Use [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) to report a technical problem with the provided repository, starter files, documentation, or automated checks.
-- For **Codio Virtual Desktop performance, access, or outage problems**, contact the **IT Service Desk** using the link on the main menu bar in D2L Brightspace.
-- For **course IDE setup or lifecycle-script problems**, see [Setup Problems and Support](https://github.com/GC-STEM/it140-m1-setup-tasks/wiki/Setup-Problems-and-Support).
-- Contact your instructor through D2L Brightspace for assignment requirements, grading, feedback, deadlines, submissions, or course-specific questions.
+* Use [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) for questions about using this repository that do not request a completed graded solution.
+* Use [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) to report a technical problem with the provided repository, starter files, documentation, or automated checks.
+* For **Codio Virtual Desktop performance, access, or outage problems**, contact the **IT Service Desk** using the link on the main menu bar in D2L Brightspace.
+* For **course IDE setup or lifecycle-script problems**, see [Setup Problems and Support](https://github.com/GC-STEM/it140-m1-setup-tasks/wiki/Setup-Problems-and-Support).
+* Contact your instructor through D2L Brightspace for assignment requirements, grading, feedback, deadlines, submissions, or course-specific questions.
 
 Do not post your completed graded flowchart or pseudocode publicly when asking for help.

@@ -2,9 +2,9 @@
 
 # Software Development Worksheet (SDW)
 
-- **Course:** IT 140 - *Introduction to Scripting*
-- **Activity:** Module Three Assignment
-- **Program:** Paycheck Calculator
+* **Course:** IT 140 - *Introduction to Scripting*
+* **Activity:** Module Three Assignment
+* **Program:** Paycheck Calculator
 
 > Use this worksheet as optional working notes while you move through the **Analyze** and **Design** phases of the simplified Software Development Life Cycle (SDLC).
 >
@@ -180,14 +180,14 @@ TODO: Record your brief explanation of the 60-hour example.
 
 Before continuing, verify:
 
-- [ ] I can explain the program's purpose in my own words.
-- [ ] I identified the required input, processing, decision, and output.
-- [ ] I understand the regular and overtime pay rules.
-- [ ] I understand why exactly 40 hours is a boundary case.
-- [ ] I checked the official 60-hour example.
-- [ ] I can distinguish stated requirements from behaviors the assignment does not require.
-- [ ] I know which two files are graded and submitted.
-- [ ] I am ready to design without beginning with Python code.
+* [ ] I can explain the program's purpose in my own words.
+* [ ] I identified the required input, processing, decision, and output.
+* [ ] I understand the regular and overtime pay rules.
+* [ ] I understand why exactly 40 hours is a boundary case.
+* [ ] I checked the official 60-hour example.
+* [ ] I can distinguish stated requirements from behaviors the assignment does not require.
+* [ ] I know which two files are graded and submitted.
+* [ ] I am ready to design without beginning with Python code.
 
 # Design Phase
 
@@ -223,10 +223,10 @@ Remember:
 
 > **Prompt:** Which required symbol types will you need?
 
-- [ ] Start/End
-- [ ] Input/Output
-- [ ] Decision
-- [ ] Process
+* [ ] Start/End
+* [ ] Input/Output
+* [ ] Decision
+* [ ] Process
 
 ## 10. Decision and Branch Plan
 
@@ -238,8 +238,8 @@ TODO: Describe the decision in words.
 
 > **Prompt:** What must be different about the processing on the two paths? Keep this as a high-level plan rather than completed pseudocode.
 
-- **One path:** TODO: Describe the purpose of the processing on this path.
-- **Other path:** TODO: Describe the purpose of the processing on this path.
+* **One path:** TODO: Describe the purpose of the processing on this path.
+* **Other path:** TODO: Describe the purpose of the processing on this path.
 
 > **Prompt:** What must be true after either path finishes so the program can continue to the output?
 
@@ -296,13 +296,13 @@ TODO: Write Yes or No. If No, revise the design files before continuing.
 
 After both files are complete:
 
-- [ ] Same required input
-- [ ] Same decision logic
-- [ ] Same treatment of the 40-hour boundary
-- [ ] Same regular-pay processing
-- [ ] Same overtime-pay processing
-- [ ] Same final weekly-pay result
-- [ ] Same required output
+* [ ] Same required input
+* [ ] Same decision logic
+* [ ] Same treatment of the 40-hour boundary
+* [ ] Same regular-pay processing
+* [ ] Same overtime-pay processing
+* [ ] Same final weekly-pay result
+* [ ] Same required output
 
 If any item differs, revise one or both graded files until they represent the same planned program.
 
@@ -310,30 +310,30 @@ If any item differs, revise one or both graded files until they represent the sa
 
 ### Flowchart
 
-- [ ] My steps are organized in a logical sequence.
-- [ ] I use appropriate symbols for Start/End, input/output, decisions, and processing.
-- [ ] I use arrows to make the program flow clear.
-- [ ] My design represents the paycheck requirements.
+* [ ] My steps are organized in a logical sequence.
+* [ ] I use appropriate symbols for Start/End, input/output, decisions, and processing.
+* [ ] I use arrows to make the program flow clear.
+* [ ] My design represents the paycheck requirements.
 
 ### Pseudocode
 
-- [ ] My steps are logically ordered.
-- [ ] My indentation shows branch structure.
-- [ ] I use appropriate pseudocode keywords.
-- [ ] My branching accounts for all input values covered by the stated pay rules.
-- [ ] My design represents the paycheck requirements.
-- [ ] No starter TODO prompts remain in the graded pseudocode.
+* [ ] My steps are logically ordered.
+* [ ] My indentation shows branch structure.
+* [ ] I use appropriate pseudocode keywords.
+* [ ] My branching accounts for all input values covered by the stated pay rules.
+* [ ] My design represents the paycheck requirements.
+* [ ] No starter TODO prompts remain in the graded pseudocode.
 
 ## 16. Ready to Submit
 
 Before leaving the graded path:
 
-- [ ] I reviewed both files against the current Guidelines and Rubric.
-- [ ] I compared the flowchart and pseudocode side by side.
-- [ ] I traced at least one boundary-relevant case through both designs.
-- [ ] I saved both files in their required formats.
-- [ ] I committed and pushed a current backup to my personal GitHub repository.
-- [ ] I understand that GitHub Assignment Checks do not assign a grade or submit the assignment.
+* [ ] I reviewed both files against the current Guidelines and Rubric.
+* [ ] I compared the flowchart and pseudocode side by side.
+* [ ] I traced at least one boundary-relevant case through both designs.
+* [ ] I saved both files in their required formats.
+* [ ] I committed and pushed a current backup to my personal GitHub repository.
+* [ ] I understand that GitHub Assignment Checks do not assign a grade or submit the assignment.
 
 Return to [Submit Your Assignment](README.md#3-submit-your-assignment).
 
@@ -356,10 +356,10 @@ Complete the remaining sections only if you choose to continue through the full 
 
 ### 17.2 Construction Checkpoint
 
-- [ ] I completed the graded flowchart and pseudocode before optional coding.
-- [ ] My Python program follows my own design.
-- [ ] I used only Module Three-level concepts needed by the design.
-- [ ] I ran after small changes and corrected syntax errors incrementally.
+* [ ] I completed the graded flowchart and pseudocode before optional coding.
+* [ ] My Python program follows my own design.
+* [ ] I used only Module Three-level concepts needed by the design.
+* [ ] I ran after small changes and corrected syntax errors incrementally.
 
 ## 18. Test — Optional Practice
 
@@ -381,10 +381,10 @@ TODO: Record a brief debugging note, or write `No changes needed`.
 
 ### 18.3 Final SDLC Check
 
-- [ ] Analyze: I understand the requirements.
-- [ ] Design: My graded flowchart and pseudocode meet the assignment requirements.
-- [ ] Construct (optional): My code follows my design.
-- [ ] Test (optional): I checked the code with multiple cases.
+* [ ] Analyze: I understand the requirements.
+* [ ] Design: My graded flowchart and pseudocode meet the assignment requirements.
+* [ ] Construct (optional): My code follows my design.
+* [ ] Test (optional): I checked the code with multiple cases.
 
 <!-- Artifact Metadata
 
