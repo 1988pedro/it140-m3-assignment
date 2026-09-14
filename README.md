@@ -350,12 +350,24 @@ git remote -v
 
 ## Help and Support
 
-Use the [Module Three Assignment Wiki](https://github.com/GC-STEM/it140-m3-assignment/wiki) for supplemental explanations of the SDLC, assignment documents, flowcharts, pseudocode, course IDE tools, Git/GitHub, testing, sources, and AI use.
+### Academic Support
+
+* For **live help** with this assignment or zyBooks activities, see [Academic Support](https://github.com/GC-STEM/it140/wiki/Course-Support).
+
+* For **self help** with this assignment and other module concepts, see the assignment [Wiki](https://github.com/GC-STEM/it140-m3-assignment/wiki) for supplemental explanations of the SDLC, assignment documents, flowcharts, pseudocode, course IDE tools, Git/GitHub, testing, sources, and AI use.
+
+### Technical Support
+
+* For **live help** with course infrastructure (Codio, zyBooks, Sense), click the **IT Service Desk** link on the menu bar in your [D2L Brightspace](https:\\learn.snhu.edu) course.
 
 * Use [GitHub Discussions](https://github.com/GC-STEM/it140-m3-assignment/discussions) for questions about using this repository that do not request a completed graded solution.
+
 * Use [GitHub Issues](https://github.com/GC-STEM/it140-m3-assignment/issues) to report a technical problem with the provided repository, starter files, documentation, or automated checks.
+
 * For **Codio Virtual Desktop performance, access, or outage problems**, contact the **IT Service Desk** using the link on the main menu bar in D2L Brightspace.
+
 * For **course IDE setup or lifecycle-script problems**, see [Setup Problems and Support](https://github.com/GC-STEM/it140-m1-setup-tasks/wiki/Setup-Problems-and-Support).
+
 * Contact your instructor through D2L Brightspace for assignment requirements, grading, feedback, deadlines, submissions, or course-specific questions.
 
 Do not post your completed graded flowchart or pseudocode publicly when asking for help.
