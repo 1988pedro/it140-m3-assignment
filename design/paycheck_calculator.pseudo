@@ -10,18 +10,21 @@
 
 START paycheck_calculator
 
-    TODO: Obtain the required program input.
+    INPUT hours_worked
 
-    IF TODO: Specify the condition for the applicable pay rule.
-        TODO: Show the processing steps for the true decision path.
+    IF hours_worked <= 40
+        CALCULATE weekly_paycheck = hours_worked * hourly_wage
     ELSE
-        TODO: Show the processing steps for the false decision path.
-    ENDIF
+        CALCULATE overtime_hours = hours_worked - 40
+CALCULATE overtime_pay = overtime_hours * overtime_wage
+CALCULATE weekly_paycheck = (40 * hourly_wage) + overtime_pay
+     ENDIF
 
-    TODO: Output the calculated weekly paycheck.
+    OUTPUT weekly_paycheck
 
 END paycheck_calculator
 
 
 # === References ===
-# TODO: List outside sources or assistance you actually used, or delete this line.
+# OpenAI ChatGPT - assistance reviewing pseudocode structure and debugging.
+

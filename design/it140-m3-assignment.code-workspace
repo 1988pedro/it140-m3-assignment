@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"workbench.editorAssociations": {
+			"*.md": "vscode.markdown.editor",
+			"*.markdown": "vscode.markdown.editor",
+			"README.md": "vscode.markdown.preview.editor",
+			"*_srs.md": "vscode.markdown.preview.editor",
+			"*_sdd.md": "vscode.markdown.preview.editor"
+		}
+	}
+}
