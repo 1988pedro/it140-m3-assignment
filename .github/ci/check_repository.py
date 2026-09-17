@@ -293,15 +293,15 @@ def check_pseudocode(
     """Verify pseudocode structure and changed student starter prompts."""
     path = "design/paycheck_calculator.pseudo"
     text = read_text(path)
-    begin = text.find("BEGIN paycheck_calculator")
+    begin = text.find("START paycheck_calculator")
     end = text.rfind("END paycheck_calculator")
 
     if begin < 0:
-        checks.error("Pseudocode is missing 'BEGIN paycheck_calculator'.")
+        checks.error("Pseudocode is missing 'START paycheck_calculator'.")
     if end < 0:
         checks.error("Pseudocode is missing 'END paycheck_calculator'.")
     if begin >= 0 and end >= 0 and begin >= end:
-        checks.error("Pseudocode BEGIN must appear before END.")
+        checks.error("Pseudocode START must appear before END.")
 
     student_changed_pseudocode = (
         mode == "student" and changed is not None and path in changed
@@ -318,7 +318,7 @@ def check_pseudocode(
         else:
             checks.note("The changed graded pseudocode has no starter TODOs.")
     elif begin >= 0 and end > begin:
-        checks.note("The pseudocode has the expected BEGIN/END structure.")
+        checks.note("The pseudocode has the expected START/END structure.")
 
 
 def without_code_fences(text: str) -> str:
