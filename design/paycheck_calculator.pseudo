@@ -1,26 +1,27 @@
 # IT 140 Module Three Assignment
 # Paycheck Calculator Pseudocode Template
 #
-# Complete every TODO prompt below with your own pseudocode.
+# Replace every TODO prompt with your own pseudocode.
 # Keep this file in .pseudo format for submission.
 #
 # Your finished pseudocode should represent the same logic as your flowchart.
-# Use clear indentation and appropriate pseudocode keywords such as
-# INPUT, LET, IF, ELSE, and OUTPUT where they fit your design.
+# Use clear indentation and ALLCAPS pseudocode keywords, such as GET (input),
+# PUT (output), LET (assignment), IF, ELSE, and ENDIF where they fit your design.
 
-BEGIN paycheck_calculator
+START paycheck_calculator
 
     TODO: Obtain the required program input.
 
-    IF TODO: Replace with the decision condition that separates the pay-rule cases THEN
-        TODO: Show the processing steps for this decision path.
+    IF TODO: Specify the condition for the applicable pay rule.
+        TODO: Show the processing steps for the true decision path.
     ELSE
-        TODO: Show the processing steps for the other decision path.
+        TODO: Show the processing steps for the false decision path.
     ENDIF
 
     TODO: Output the calculated weekly paycheck.
 
 END paycheck_calculator
+
 
 # === References ===
 # TODO: List outside sources or assistance you actually used, or delete this line.
