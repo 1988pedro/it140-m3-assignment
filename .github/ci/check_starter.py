@@ -36,9 +36,9 @@ SOURCE_TODO_MARKERS = (
 
 PSEUDOCODE_TODO_MARKERS = (
     "TODO: Obtain the required program input.",
-    "IF TODO: Replace with the decision condition",
-    "TODO: Show the processing steps for this decision path.",
-    "TODO: Show the processing steps for the other decision path.",
+    "IF TODO: Specify the condition for the applicable pay rule.",
+    "TODO: List the processing steps for the true decision path.",
+    "TODO: List the processing steps for the false decision path.",
     "TODO: Output the calculated weekly paycheck.",
 )
 
