@@ -182,8 +182,8 @@ def check_source(checks: StarterChecks) -> None:
 def check_pseudocode(checks: StarterChecks) -> None:
     """Verify graded pseudocode template markers remain intact."""
     text = PSEUDOCODE_PATH.read_text(encoding="utf-8")
-    if "BEGIN paycheck_calculator" not in text:
-        checks.error("Pseudocode starter must keep BEGIN paycheck_calculator.")
+    if "START paycheck_calculator" not in text:
+        checks.error("Pseudocode starter must keep START paycheck_calculator.")
     if "END paycheck_calculator" not in text:
         checks.error("Pseudocode starter must keep END paycheck_calculator.")
 
