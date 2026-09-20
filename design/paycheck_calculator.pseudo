@@ -10,18 +10,22 @@
 
 START paycheck_calculator
 
-    TODO: Obtain the required program input.
+GET total_hours
 
-    IF TODO: Specify the condition for the applicable pay rule.
-        TODO: List the processing steps for the true decision path.
+IF total_hours <= 40 THEN
+LET gross_pay = total_hours * 20
     ELSE
-        TODO: List the processing steps for the false decision path.
+LET overtime_hours = total_hours - 40
+LET regular_pay = 40 * 20
+LET overtime_pay = overtime_hours * 30
+LET gross_pay = regular_pay + overtime_pay
     ENDIF
 
-    TODO: Output the calculated weekly paycheck.
+PUT gross_pay
 
 END paycheck_calculator
 
 
-# === References ===
-# TODO: List outside sources or assistance you actually used, or delete this line.
+
+=== References ===
+Southern New Hampshire University. (n.d.). IT 140: Introduction to Scripting. Module Three Assignment Guidelines and Rubric. SNHU Brightspace.
